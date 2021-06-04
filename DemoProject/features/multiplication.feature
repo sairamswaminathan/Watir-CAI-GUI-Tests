@@ -27,17 +27,17 @@ Feature: CAI Functional GUI Testing
     And "Greetings" Skill is selected
     And "Weather" Skill is selected
     And "Small Talk" Skill is selected
-    And botname "newbotfortesting" is entered
+    And botname "newbottest" is entered
     And "Non-personal" is selected
     And Store Conversation data is selected
     And "Non-vulnerable" is selected
     And "Public" is selected
     And Create button is clicked
-    Then "newbotfortesting" is created
+    Then "newbottest" is created
 
   Scenario: Load the newly created bot
 
-    Given "newbotfortesting" is created
-    When "newbotfortesting" is clicked
-    Then "newbotfortesting" is loaded
+    Given "newbottest" is created
+    When "newbottest" is clicked
+    Then "newbottest" is loaded
 
